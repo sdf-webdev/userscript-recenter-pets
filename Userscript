@@ -1,0 +1,21 @@
+// ==UserScript==
+// @name         Recenter Pets on Homepage
+// @namespace    http://tampermonkey.net/
+// @version      2024-04-30
+// @description  try to take over the world!
+// @author       You
+// @match        *://*.neopets.com/home/index.phtml
+// @match        *://*.neopets.com/home/
+// @icon         https://www.neopets.com/favicon.ico
+// @grant GM_addStyle
+// ==/UserScript==
+
+(function() {
+    'use strict';
+
+    GM_addStyle ( `
+    .container { display: flex !important; }
+    .hp-event-icon { margin-top: 150px; }
+    .hp-carousel-container { margin-top: 100px; }
+` );
+})();
