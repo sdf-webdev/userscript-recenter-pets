@@ -2,8 +2,8 @@
 // @name         Recenter Pets on Homepage
 // @namespace    http://tampermonkey.net/
 // @version      2024-04-30
-// @description  try to take over the world!
-// @author       You
+// @description  Userscript to recenter pets on the homepage after the ads update
+// @author       Mew
 // @match        *://*.neopets.com/home/index.phtml
 // @match        *://*.neopets.com/home/
 // @icon         https://www.neopets.com/favicon.ico
